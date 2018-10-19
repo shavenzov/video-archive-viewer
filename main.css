@@ -1,0 +1,103 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0 64px;
+}
+
+h1{
+    position: absolute;
+}
+
+nav{
+    width: calc( 100% - 32px);
+    height: 20px;
+    color:white;
+    background-color: grey;
+    border: 1px solid grey;
+    padding: 16px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.video-archive-viewer{
+    display: flex;
+    width: calc( 100% - 12px );
+    height: 320px;
+    overflow: hidden;
+    border: 2px solid black;
+    cursor: grab;
+    padding: 4px;
+}
+
+time{
+    padding-bottom:4px;
+}
+
+/** successfully loaded frame */
+
+.video-archive-viewer .frame{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 8px;
+    min-width: 333px;
+}
+
+.video-archive-viewer .frame img{
+    width:333px;
+    height:250px;
+    border: 1px solid black;
+}
+
+.video-archive-viewer .frame .loading{
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    padding: 25px 66.5px;
+}
+
+
+.video-archive-viewer .frame footer{
+    height: 16px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #dae8fc;
+}
+
+/** frame not found */
+
+.video-archive-viewer .frame-not-found{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.video-archive-viewer .frame-not-found img{
+    width:250px;
+    height:250px;
+    border: 1px dashed #d87471;
+    padding: 0px 41.5px;
+}
+
+
+.video-archive-viewer .frame-not-found footer{
+    height: 16px;
+    width: 99.5%;
+    border: 1px solid #d87471;
+    background-color: white;
+}
+
+
