@@ -11,4 +11,6 @@
 
 Описание HTTP API сервера: https://doc.axxonsoft.com/confluence/pages/viewpage.action?pageId=138456556
 
-Рабочее приложение доступно здесь: http://shavenzov.com/video-archive-viewer/
+### Реализация
+
+Смотрим здесь рабочее приложение : :policewoman: http://shavenzov.com/video-archive-viewer/ :policeman:
