@@ -15,7 +15,7 @@ export default class VideoArchiveAPI {
         /**
          * Root of all api endpoints
          */
-        this.API_ROOT = "http://localhost:8000/asip-api";
+        this.API_ROOT = "http://shavenzov.com:8000/asip-api";
     }
 
     /**
